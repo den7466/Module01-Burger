@@ -678,6 +678,66 @@ main {
     }
 }
 
+@media (max-width: 1024px) {
+    /* Index */
+
+    .main > .wrapper {
+        max-width: 738px;
+    }
+
+    .main > .wrapper > .content {
+        padding-top: 42px;
+        padding-bottom: 122px;
+        flex: 0 0 416px;
+    }
+
+    .content-title {
+        font-size: 86px;
+        margin-bottom: 28px;
+
+    }
+
+    .content-text {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .content-link {
+        font-size: 13px;
+    }
+
+    .content-title span {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .main > .wrapper > .visual {
+        position: inherit;
+        margin-right: 29px;
+    }
+
+    .main > .wrapper > .visual > .visual-bg {
+        max-width: 198px;
+    }
+
+    .main > .wrapper > .visual img {
+        max-width: 496px;
+        top: 186px;
+        right: -102px;
+    }
+
+    .promo {
+        padding-top: 106px;
+        padding-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .promo-right a {
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 1000px) {
     .container {
         max-width: 738px;
@@ -739,62 +799,6 @@ main {
 
     .footer-list + .footer-list-tel {
         display: block;
-    }
-
-    /* Index */
-
-    .main > .wrapper {
-        max-width: 738px;
-    }
-
-    .main > .wrapper > .content {
-        padding-top: 42px;
-        padding-bottom: 122px;
-        flex: 0 0 416px;
-    }
-
-    .content-title {
-        font-size: 86px;
-        margin-bottom: 28px;
-
-    }
-
-    .content-text {
-        font-size: 14px;
-        margin-bottom: 30px;
-    }
-
-    .content-link {
-        font-size: 13px;
-    }
-
-    .content-title span {
-        font-size: 22px;
-        margin-bottom: 0;
-    }
-
-    .main > .wrapper > .visual {
-        position: inherit;
-        margin-right: 29px;
-    }
-
-    .main > .wrapper > .visual > .visual-bg {
-        max-width: 198px;
-    }
-
-    .main > .wrapper > .visual img {
-        max-width: 496px;
-        top: 186px;
-        right: -102px;
-    }
-
-    .promo {
-        padding-top: 106px;
-        padding-bottom: 0;
-    }
-
-    .promo-right a {
-        font-size: 13px;
     }
 }
 
