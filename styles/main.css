@@ -259,10 +259,11 @@ main {
     padding: 13px 30px;
     color: #443737;
     font-size: 15px;
-    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
     flex-basis: 279px;
+    background-color: #FFFFFF;
     background-image: url(../images/arrow.svg);
     background-size: 12.79px 7.75px;
     background-repeat: no-repeat;
@@ -946,7 +947,55 @@ main {
 }
 
 @media (max-width: 320px) {
+    main {
+        margin-top: 33px;
+    }
+    
+    .container {
+        max-width: 290px;
+        padding: 0;
+    }
+    
     .banner-box {
         background-position: 25% center;
+        margin-bottom: 38px;
+
+    }
+
+    .menu-header {
+        margin-bottom: 24px;
+    }
+
+    .menu-select {
+        font-size: 12px;
+        padding: 13px 20px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(2, 139px);
+        gap: 24px 12px;
+        margin-bottom: 50px;
+    }
+
+    .menu-grid-title {
+        margin-top: 7px;
+    }
+
+    .menu-grid-price {
+        margin-top: 0;
+        margin-bottom: 7px;
+    }
+
+    .menu-grid-btn {
+        width: 129px;
+    }
+
+    .menu-other {
+        height: 380px;
+    }
+
+    .footer {
+        margin-top: 60px;
+        padding-bottom: 30px;
     }
 }
